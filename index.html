@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>reveal.js</title>
+    <title>Replicated Presentation</title>
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
@@ -18,8 +18,13 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides">
-        <section>What does Replicated do for us?</section>
+      <class="slides">
+        <section>
+          What does Replicated do for us?
+          <section>
+            From Annie and Dom to Jean with 💜
+          </section>
+        </section>
         <section>Slide 2</section>
       </div>
     </div>
@@ -34,7 +39,9 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-
+        controls: true,
+        history: true,
+        transition: 'cube',
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
       })
